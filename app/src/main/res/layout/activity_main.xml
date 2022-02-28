@@ -200,6 +200,7 @@
             android:layout_height="82dp"
             android:layout_weight="1"
             android:text="0"
+            android:textSize="26sp"
             android:onClick="zero"
             />
 
@@ -210,6 +211,9 @@
             android:layout_height="82dp"
             android:layout_weight="1"
             android:text="="
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
             android:onClick="doResult"
             />
 
@@ -220,6 +224,7 @@
             android:layout_height="82dp"
             android:layout_weight="1"
             android:text="AC"
+            android:textSize="22sp"
             android:onClick="clear"
             />
         <Button
@@ -227,6 +232,7 @@
             android:id="@+id/mult"
             android:layout_width="0dp"
             android:layout_height="82dp"
+            android:textSize="20sp"
             android:layout_weight="1"
             android:text="x"
             android:onClick="multi"
